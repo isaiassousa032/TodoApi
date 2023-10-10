@@ -8,6 +8,6 @@ namespace TodoApi.Models
         { 
         }
 
-        public DbSet<TodoItem> Items { get; set; } = null!;
+        public DbSet<TodoItem> TodoItems { get; set; } = null!;
     }
 }
